@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+ 
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SF BANK- Online Banking System</title>
+    <link rel="icon" href="https://png.pngtree.com/png-vector/20190927/ourlarge/pngtree-bank-icon-png-image_1757496.jpg" type="image/png" >
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        
+    
+    <link rel="stylesheet"
+        href="https://unpkg.com/bootstrap-material-design@4.1.1/dist/css/bootstrap-material-design.min.css">
+    <link rel="stylesheet" href="file/style.css">
+    <style>
+.button {
+  display: inline-block;
+  border-radius: 4px;
+  background-color: #f4511e;
+  border: none;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 28px;
+  padding: 20px;
+  width: 200px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+}
+
+.button span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.button span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.button:hover span {
+  padding-right: 25px;
+}
+
+.button:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+</style>
+</head>
+
+<body>
+    <!-- navbar starts here  -->
+    <header>
+    <nav class="navbar navbar-expand-lg">
+        <a class="navbar-brand  " href="./index.html">SF  BANK</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="./index.html">HOME </a>
+                </li>
+                <li class="nav-item  active">
+                    <a class="nav-link" href="banking.html"
+                      >BANKING</a>
+                </li>
+                <li class="nav-item  active">
+                    <a class="nav-link" href="transfer.html"
+                      >TRANSFER</a>
+                </li>
+                <li class="nav-item  active">
+                    <a class="nav-link" href="contact.html"
+                      >CONTACT US</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    </header>
+    <!-- navbar ends here  --><br>
+   <div class="container-fluid">
+       <h1>Do Online Transactions</h1>
+       <h2><center>from anywhere at Your Own Pace.</center></h2><br>
+       <img src="homepage.jpg" alt="banking image" style="width:100%;">
+       <br><hr>
+       <center><a href="banking.html"><button class="button" style="vertical-align:middle"><span>PROCEED </span></button></a></center>
+</div>
+    
+
+    <hr>
+    
+<!-- Footer -->
+        <br> <br>
+        <h3><center><font color="#000">Let's Connect Together</font></center></h3>
+
+        <div class="social"><center>
+                <a href="https://www.linkedin.com/in/sakshi-singh-8329b91a2
+                   " class="link linkedin" target="_parent"><span class="fa fa-linkedin-square"></span></a>
+                <a href="https://github.com/sakshirajput02" class="link github" target="_parent"><span class="fa fa-github"></span></a>
+                <a href="sakshirajput2199@gmail.com" class="link google" target="_parent"><span class="fa fa-google"></span></a>
+            </center></div>
+        <hr>
+        <!-- Copyright -->
+        <div class="footer-copyright text-center py-3">
+            <br><font color="#000"><b>
+                Project made by <a href="https://www.linkedin.com/in/sakshi-singh-8329b91a2
+                                   ">Sakshi Singh</a> as part of THE SPARKS FOUNDATIONS Internship .<br><br>
+                2020 Copyright © . All Rights Reserved. 
+            </b> </font>
+        </div>
+   
+        <!-- Copyright -->
+        <script>
+            function myFunction() {
+                alert("YOUR  MESSAGE IS  SUCESSFULLY  SENT.");
+            }
+        </script>
+
+</body>
+</html>

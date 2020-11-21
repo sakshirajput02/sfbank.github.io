@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SF BANK- Online Banking System</title>
+    
+    <link rel="stylesheet"
+        href="https://unpkg.com/bootstrap-material-design@4.1.1/dist/css/bootstrap-material-design.min.css">
+    <link rel="stylesheet" href="style1.css">
+</head>
+
+<body>
+    <!-- navbar starts here  -->
+    <header>
+    <nav class="navbar navbar-expand-lg">
+        <a class="navbar-brand  " href="./index.html">SF  BANK</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="./index.html">HOME </a>
+                </li>
+                <li class="nav-item  active">
+                    <a class="nav-link" href="banking.html"
+                      ">BANKING</a>
+                </li>
+                <li class="nav-item  active">
+                    <a class="nav-link" href="transfer.html"
+                      >TRANSFER</a>
+                </li>
+                <li class="nav-item  active">
+                    <a class="nav-link" href="contact.html"
+                      >CONTACT US</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    </header>
+    <!-- navbar ends here  -->
+    <br>
+    <br>
+    <div class="my-info text-center">
+        <h2>Customers registered in Online Banking:</h2>
+        <br>
+    </div>
+
+   
+    <!-- table  -->
+    <div class="container">
+        <div class="table-responsive">
+            <table class="table table-hover table-bordered">
+                <thead>
+                    <tr class="table-info">
+                        <th scope="col">S No.</th>
+                        <th scope="col">Name</th>
+                        <th scope="col">E-mail</th>
+                        <th scope="col">Bank Balance(Rs.)</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr class="table-light">
+                        <td scope="row">1</td>
+                        <td>S P Singh</td>
+                        <td>sp@gmail.com</td>
+                        <td>
+                            <p id="spBalance">58000</p>
+                        </td>
+                    </tr>
+                    <tr class="table-success">
+                        <td scope="row">2</td>
+                        <td>Avisha Srivastava</td>
+                        <td>avisha@gmail.com</td>
+                        <td>
+                            <p id="avishaBalance">79440</p>
+                        </td>
+                    </tr>
+                    <tr class="table-light">
+                        <td scope="row">3</td>
+                        <td>Varun Parihar</td>
+                        <td>varun@gmail.com</td>
+                        <td>
+                            <p id="varunBalance">98700</p>
+                        </td>
+                    </tr>
+                    <tr class="table-success">
+                        <td scope="row">4</td>
+                        <td>Rudra  Singh</td>
+                        <td>rudra@gmail.com</td>
+                        <td>
+                            <p id="rudraBalance">49000</p>
+                        </td>
+                    </tr>
+                    <tr class="table-light">
+                        <td scope="row">5</td>
+                        <td>Shristi Gupta</td>
+                        <td>shrishti@gmail.com</td>
+                        <td>
+                            <p id="shrishtiBalance">87900</p>
+                        </td>
+                    </tr>
+                    <tr class="table-success">
+                        <td scope="row">6</td>
+                        <td>Roshni Gupta</td>
+                        <td>roshni@gmail.com</td>
+                        <td>
+                            <p id="roshniBalance">58000</p>
+                        </td>
+                    </tr>
+                    <tr class="table-light">
+                        <td>7</td>
+                        <td>Vinayak Dubey</td>
+                        <td>atomsmashit5@gmail.com</td>
+                        <td>
+                            <p id="vinayakBalance">99900</p>
+                        </td>
+                    </tr>
+                    <tr class="table-success">
+                        <td scope="row">8</td>
+                        <td>Hrishita Tiwari</td>
+                        <td>hrishita@gmail.com</td>
+                        <td>
+                            <p id="hrishitaBalance">67584</p>
+                        </td>
+                    </tr>
+                    <tr class="table-light">
+                        <td scope="row">9</td>
+                        <td>Jatin Srivastava </td>
+                        <td>jatin@gmail.com</td>
+                        <td>
+                            <p id="jatinBalance">75000</p>
+                        </td>
+                    </tr>
+                    <tr class="table-success">
+                        <td scope="row">10</td>
+                        <td>Khushi Singh</td>
+                        <td>khushi@gmail.com</td>
+                        <td>
+                            <p id="khushiBalance">9000</p>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+            
+        </div>
+    </div><br><br>
+    <div class="my-info text-center">
+        <h2><font sytle="arial">ACCOUNT HOLDER: SAKSHI SINGH</font></h2>
+        <h4>Net Account Balance: Rs.<span id="accountBalance">850000</span></h4>
+    </div>
+    <hr>
+    <!-- Copyright -->
+        <div class="footer-copyright text-center py-3">
+            <br><font color="#000"><b>
+                Project made by <a href="https://www.linkedin.com/in/sakshi-singh-8329b91a2
+                                   ">Sakshi Singh</a> as part of THE SPARKS FOUNDATIONS Internship .<br><br>
+                2020 Copyright © . All Rights Reserved. 
+            </b> </font>
+        </div>
+        <!-- Copyright -->
+
+    <script src="script.js"></script>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+    <script src="https://unpkg.com/popper.js@1.12.6/dist/umd/popper.js"></script>
+    <script src="https://unpkg.com/bootstrap-material-design@4.1.1/dist/js/bootstrap-material-design.js"></script>
+</body>
+</html>
